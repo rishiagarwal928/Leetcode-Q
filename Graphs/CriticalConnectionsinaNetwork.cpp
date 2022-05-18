@@ -27,7 +27,7 @@ class Solution {
         //Apply DFS for each component
         for(int i=0;i<V;++i)
             if(disc[i]==-1)
-                DFS(i,disc,low,parent,bridges);
+            DFS(i,disc,low,parent,bridges);
     }
 public:
     vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
